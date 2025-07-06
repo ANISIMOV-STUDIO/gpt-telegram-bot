@@ -37,7 +37,7 @@ TelegramBot/
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/ThNotorious/gpt-telegram-bot.git
+git clone https://github.com/ANISIMOV-STUDIO/gpt-telegram-bot.git
 cd gpt-telegram-bot
 ```
 

@@ -14,7 +14,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/ThNotorious/gpt-telegram-bot.git
+git clone https://github.com/ANISIMOV-STUDIO/gpt-telegram-bot.git
 cd gpt-telegram-bot
 
 # 依赖
