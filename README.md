@@ -37,8 +37,8 @@ TelegramBot/
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/yourusername/telegram-bot.git
-cd telegram-bot
+git clone https://github.com/ThNotorious/gpt-gpt-telegram-bot.git
+cd gpt-gpt-telegram-bot
 ```
 
 2. Создайте виртуальное окружение:
@@ -132,7 +132,7 @@ python run.py
 
 ### Systemd Service (для Linux сервера)
 
-Создайте файл `/etc/systemd/system/telegram-bot.service`:
+Создайте файл `/etc/systemd/system/gpt-telegram-bot.service`:
 
 ```ini
 [Unit]
@@ -142,9 +142,9 @@ After=network.target
 [Service]
 Type=simple
 User=your-user
-WorkingDirectory=/home/your-user/telegram-bot
-Environment="PATH=/home/your-user/telegram-bot/venv/bin"
-ExecStart=/home/your-user/telegram-bot/venv/bin/python run.py
+WorkingDirectory=/home/your-user/gpt-telegram-bot
+Environment="PATH=/home/your-user/gpt-telegram-bot/venv/bin"
+ExecStart=/home/your-user/gpt-telegram-bot/venv/bin/python run.py
 Restart=always
 
 [Install]
@@ -153,8 +153,8 @@ WantedBy=multi-user.target
 
 Запустите сервис:
 ```bash
-sudo systemctl enable telegram-bot
-sudo systemctl start telegram-bot
+sudo systemctl enable gpt-gpt-telegram-bot
+sudo systemctl start gpt-telegram-bot
 ```
 
 ## Логирование
