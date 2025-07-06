@@ -7,6 +7,8 @@ on:
 
 jobs:
   deploy:
+    # Выполняем деплой только если указан адрес сервера
+    if: ${{ secrets.SERVER_HOST != '' }}
     runs-on: ubuntu-latest
     
     steps:
