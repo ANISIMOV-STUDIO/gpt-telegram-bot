@@ -37,8 +37,8 @@ TelegramBot/
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/ThNotorious/gpt-gpt-telegram-bot.git
-cd gpt-gpt-telegram-bot
+git clone https://github.com/ThNotorious/gpt-telegram-bot.git
+cd gpt-telegram-bot
 ```
 
 2. Создайте виртуальное окружение:
@@ -153,7 +153,7 @@ WantedBy=multi-user.target
 
 Запустите сервис:
 ```bash
-sudo systemctl enable gpt-gpt-telegram-bot
+sudo systemctl enable gpt-telegram-bot
 sudo systemctl start gpt-telegram-bot
 ```
 
